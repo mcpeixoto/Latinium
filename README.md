@@ -1,6 +1,7 @@
-# **Tox Programming Language**
+# **Latinium Programming Language**
 
-```Tox``` is a small programming language designed to run on a Virtual Machine. The Virtual Machine executable is located in ```vm/```. This programming language was built using the library [ply](www.dabeaz.com/ply/). 
+
+```Latinium``` is a small programming language designed to run on a Virtual Machine. The Virtual Machine executable is located in ```vm/```. This programming language was built using the library [ply](www.dabeaz.com/ply/). 
 
 **Note**: The Virtual Machine was developed by students at the University of Minho, Portugal.I did not develop the Virtual Machine, I only developed the programming language. To learn more about the Virtual Machine, please refer to the zip file ```vms-vf.zip``` in the ```vm/``` directory. Also note that I made some modifications to the Virtual Machine in order to make it compatible with the Virtual Machine at [EWVM](https://ewvm.epl.di.uminho.pt/). Those modifications include:
 - Adding a new instructions to the Virtual Machine (```AND```, ```OR```).
@@ -11,8 +12,8 @@
 Installing through pip:
 
 ```rustonsole
-git clone https://github.com/fabiocfabini/tox.git
-cd tox
+git clone https://github.com/fabiocfabini/Latinium.git
+cd Latinium
 make install
 pip install -e .
 ```
@@ -22,7 +23,7 @@ pip install -e .
 ## **Quick Start**
 
 ```rustonsole
-tox run examples/hello_world.tox
+Latinium run examples/hello_world.Latinium
 ```
 
 ## **Features**
@@ -60,7 +61,7 @@ Basic arithmetics are supported by the language. These include:
 - the ```et```, ```aut``` operators;
 - the ```non``` operator;
 
-Tox also supports pointer arithmetics. The following operations are supported:
+Latinium also supports pointer arithmetics. The following operations are supported:
 
 - ```+``` adds an integer to a pointer;
 - ```-``` subtracts an integer from a pointer and returns the difference between two pointers;
@@ -88,7 +89,7 @@ a = 20
 
 ### **Arrays**
 
-In tox arrays are declared in 3 different ways:
+In Latinium arrays are declared in 3 different ways:
 
 - Declaring an array of a specific size. This will initialize the array with the value ```0```;
 
