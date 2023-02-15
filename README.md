@@ -23,7 +23,7 @@ pip install -e .
 ## **Quick Start**
 
 ```rustonsole
-Latinium run examples/hello_world.Latinium
+lat run examples/hello_world.Latinium
 ```
 
 ## **Features**
